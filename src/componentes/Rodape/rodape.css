@@ -1,17 +1,29 @@
 .footer {
-    background: #6278F7;
-    color: #FFF;
-    padding: 80px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  background: #6278f7;
+  color: #fff;
+  padding: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .footer ul li {
-    display: inline-block;
-    margin-right: 32px;
+  display: inline-block;
+  margin-right: 32px;
 }
 
 .footer ul li:last-child {
-    margin-right: 0;
+  margin-right: 0;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    padding: 32px;
+    gap: 46px;
+  }
+
+  .footer ul {
+    margin-top: 32px;
+  }
 }
