@@ -21,7 +21,7 @@
   border-radius: 0px 0px 10px 10px;
   padding-top: 90px;
   padding-bottom: 40px;
-  height: 90px;
+  height: 120px;
 }
 
 .colaborador .rodape h4 {
@@ -43,4 +43,8 @@
   right: 10px;
   top: 10px;
   cursor: pointer;
+}
+
+.favoritar {
+  margin-top: 20px;
 }
